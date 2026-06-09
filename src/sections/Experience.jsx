@@ -26,6 +26,9 @@ export default function Experience() {
                   </div>
                   <div>
                     <h3 className="text-3xl font-black">{item.role}</h3>
+                    {item.company && (
+                      <p className="mt-2 text-lg font-semibold text-volt">{item.company}</p>
+                    )}
                     <ul className="mt-6 grid gap-4">
                       {item.points.map((point) => (
                         <li key={point} className="flex gap-3 text-base leading-7 text-ink/68">

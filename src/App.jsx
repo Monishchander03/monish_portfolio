@@ -5,6 +5,7 @@ import LoadingScreen from './components/LoadingScreen.jsx';
 import About from './sections/About.jsx';
 import Certifications from './sections/Certifications.jsx';
 import Contact from './sections/Contact.jsx';
+import Education from './sections/Education.jsx';
 import Experience from './sections/Experience.jsx';
 import Footer from './sections/Footer.jsx';
 import Hero from './sections/Hero.jsx';
@@ -25,6 +26,7 @@ export default function App() {
         <About />
         <Skills />
         <Projects />
+        <Education />
         <Certifications />
         <Experience />
         <Contact />

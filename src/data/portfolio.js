@@ -3,8 +3,10 @@ import {
   BarChart3,
   Bot,
   BrainCircuit,
+  Cloud,
   Database,
   Github,
+  GraduationCap,
   Linkedin,
   Mail,
   Network,
@@ -29,7 +31,9 @@ export const navItems = [
   { label: 'About', href: '#about', id: 'about' },
   { label: 'Skills', href: '#skills', id: 'skills' },
   { label: 'Projects', href: '#projects', id: 'projects' },
+  { label: 'Education', href: '#education', id: 'education' },
   { label: 'Certifications', href: '#certifications', id: 'certifications' },
+  { label: 'Experience', href: '#experience', id: 'experience' },
   { label: 'Contact', href: '#contact', id: 'contact' },
 ];
 
@@ -41,7 +45,7 @@ export const socials = [
 
 export const stats = [
   { label: 'Projects Completed', value: '12+' },
-  { label: 'Certifications', value: '03' },
+  { label: 'Certifications', value: '06' },
   { label: 'Technologies Learned', value: '20+' },
 ];
 
@@ -113,6 +117,23 @@ export const projects = [
 
 export const certifications = [
   {
+    title: 'Google Looker Introduction',
+    icon: BarChart3,
+    detail: 'Data visualization and business intelligence fundamentals with Google Looker.',
+    link: 'https://www.skills.google/public_profiles/f8bccf1e-637c-4f29-a8ca-616170693ee1/badges/24519361?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share',
+  },
+  {
+    title: 'Databricks Foundation',
+    icon: Database,
+    detail: 'Data engineering and lakehouse architecture on the Databricks platform.',
+    link: 'https://credentials.databricks.com/4f3ec2e8-94d6-44b4-8601-0a121b0f6adb',
+  },
+  {
+    title: 'AWS Foundation',
+    icon: Cloud,
+    detail: 'Amazon Web Services cloud computing fundamentals and core services.',
+  },
+  {
     title: 'Cisco Networking Certificate',
     icon: BadgeCheck,
     detail: 'Networking fundamentals, architecture, and enterprise connectivity.',
@@ -129,15 +150,36 @@ export const certifications = [
   },
 ];
 
+export const education = [
+  {
+    degree: 'M.Tech in AI and Data Science',
+    institution: 'SRM University, Kattankulathur',
+    university: 'SRM University',
+    specialization: 'Artificial Intelligence and Data Science',
+    status: 'Pursuing',
+    period: 'Pursuing',
+  },
+  {
+    degree: 'Master of Computer Application',
+    institution: 'Sri Manakula Vinayagar Engineering College, Puducherry',
+    university: 'Pondicherry University',
+    specialization: 'Specialized in Python, SQL, JavaScript',
+    cgpa: '9.1 CGPA',
+    status: 'Completed',
+    period: 'Completed',
+  },
+];
+
 export const experience = [
   {
-    role: 'Junior AI & Data Engineer',
-    period: 'Present',
+    role: 'AI & Data Engineer',
+    company: 'Twilight IT Solutions, Puducherry',
+    period: 'Jul 2025 - Present',
     points: [
-      'Built analytics projects that translate raw metrics into business-ready decisions.',
-      'Created dashboard experiences for sales, operations, and executive reporting.',
-      'Explored AI solutions using machine learning, neural networks, and intelligent automation.',
-      'Supported data engineering tasks across SQL, ETL workflows, and pipeline planning.',
+      'Designed and implemented data engineering pipelines for business intelligence.',
+      'Developed AI-powered solutions for data analysis and automation.',
+      'Collaborated with cross-functional teams on analytics and machine learning projects.',
+      'Optimized data workflows and infrastructure for improved performance.',
     ],
   },
 ];
