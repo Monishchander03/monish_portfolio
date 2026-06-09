@@ -151,14 +151,14 @@ export const certifications = [
 ];
 
 export const education = [
-  {
-    degree: 'M.Tech in AI and Data Science',
-    institution: 'SRM University, Kattankulathur',
-    university: 'SRM University',
-    specialization: 'Artificial Intelligence and Data Science',
-    status: 'Pursuing',
-    period: 'Pursuing',
-  },
+  // {
+  //   degree: 'M.Tech in AI and Data Science',
+  //   institution: 'SRM University, Kattankulathur',
+  //   university: 'SRM University',
+  //   specialization: 'Artificial Intelligence and Data Science',
+  //   status: 'Pursuing',
+  //   period: 'Pursuing',
+  // },
   {
     degree: 'Master of Computer Application',
     institution: 'Sri Manakula Vinayagar Engineering College, Puducherry',
