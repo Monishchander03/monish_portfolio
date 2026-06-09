@@ -63,7 +63,7 @@ export const skills = [
   {
     title: 'Development',
     icon: ServerCog,
-    items: ['React', 'Flask', 'Git', 'Docker'],
+    items: ['React', 'Node.js','Flask', 'Git', 'Docker'],
   },
   {
     title: 'Analytics',

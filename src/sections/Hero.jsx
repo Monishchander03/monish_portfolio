@@ -23,7 +23,7 @@ export default function Hero() {
         >
           <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-ink/10 bg-white/70 px-4 py-2 text-sm font-bold shadow-[0_12px_40px_rgba(10,10,10,0.08)] backdrop-blur">
             <span className="h-2 w-2 rounded-full bg-volt shadow-glow" />
-            AI & Data Engineer
+            AI & Data Engineering
           </div>
           <h1
             id="hero-title"
