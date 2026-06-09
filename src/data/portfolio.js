@@ -21,7 +21,7 @@ export const profile = {
   email: 'chandermonish@gmail.com',
   github: 'https://github.com/',
   linkedin: 'https://www.linkedin.com/in/monishchander/',
-  resume: '/resume.txt',
+  resume: '/resume.pdf',
 };
 
 export const navItems = [
