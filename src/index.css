@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    color: #111111;
+    background: #f8f8f8;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    margin: 0;
+    min-width: 320px;
+  }
+
+  ::selection {
+    background: #c7ff3d;
+    color: #111111;
+  }
+}
+
+@layer components {
+  .container-shell {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8;
+  }
+
+  .glass-panel {
+    @apply border border-white/60 bg-white/70 shadow-premium backdrop-blur-2xl;
+  }
+
+  .dark-glass-panel {
+    @apply border border-white/10 bg-white/[0.055] shadow-[0_24px_90px_rgba(0,0,0,0.32)] backdrop-blur-2xl;
+  }
+
+  .section-padding {
+    @apply py-20 sm:py-24 lg:py-28;
+  }
+
+  .focus-ring {
+    @apply focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-volt;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .mask-fade {
+    mask-image: linear-gradient(to bottom, transparent, black 12%, black 86%, transparent);
+  }
+}
