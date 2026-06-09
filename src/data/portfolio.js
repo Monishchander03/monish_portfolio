@@ -68,7 +68,7 @@ export const skills = [
   {
     title: 'Analytics',
     icon: BarChart3,
-    items: ['Looker Studio', 'Power BI', 'Data Visualization'],
+    items: ['Looker Studio', 'Power BI', 'Tableau', 'Data Visualization'],
   },
 ];
 
@@ -181,6 +181,17 @@ export const experience = [
       'Collaborated with cross-functional teams on analytics and machine learning projects.',
       'Optimized data workflows and infrastructure for improved performance.',
       'Contributed to the development of AI models and data-driven applications.',
+    ],
+  },
+  {
+    role: 'Machine Learning Intern',
+    company: 'Defense Research and Development Organization (DRDO), Bangalore, Govt. of India',
+    period: 'Mar 2025 - May 2025',
+    points: [
+      'Developed and trained machine learning models for defense applications.',
+      'Worked on data preprocessing, feature engineering, and model optimization.',
+      'Collaborated with senior engineers on research and experimentation.',
+      'Contributed to technical documentation and project deliverables.',
     ],
   },
 ];

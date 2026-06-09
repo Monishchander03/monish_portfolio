@@ -15,7 +15,7 @@ export default function Experience() {
         <div className="mx-auto max-w-4xl">
           {experience.map((item) => (
             <Reveal key={item.role}>
-              <article className="relative rounded-[34px] border border-ink/8 bg-white p-7 shadow-premium sm:p-9">
+              <article className="relative rounded-[34px] border border-ink/8 bg-white p-7 shadow-premium sm:p-9 transition hover:-translate-y-1 hover:border-volt hover:shadow-glow">
                 {/* Vertical timeline marker. */}
                 <div className="absolute left-8 top-10 hidden h-[calc(100%-5rem)] w-px bg-gradient-to-b from-volt via-ink/12 to-transparent sm:block" />
                 <div className="grid gap-8 sm:grid-cols-[120px_1fr]">
@@ -27,7 +27,7 @@ export default function Experience() {
                   <div>
                     <h3 className="text-3xl font-black">{item.role}</h3>
                     {item.company && (
-                      <p className="mt-2 text-lg font-semibold text-volt">{item.company}</p>
+                      <p className="mt-2 text-lg font-semibold text-ink border-l-4 border-volt pl-4">{item.company}</p>
                     )}
                     <ul className="mt-6 grid gap-4">
                       {item.points.map((point) => (
