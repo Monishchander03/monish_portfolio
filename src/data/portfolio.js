@@ -180,6 +180,7 @@ export const experience = [
       'Developed AI-powered solutions for data analysis and automation.',
       'Collaborated with cross-functional teams on analytics and machine learning projects.',
       'Optimized data workflows and infrastructure for improved performance.',
+      'Contributed to the development of AI models and data-driven applications.',
     ],
   },
 ];
