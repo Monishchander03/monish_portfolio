@@ -172,7 +172,7 @@ export const education = [
 
 export const experience = [
   {
-    role: 'AI & Data Engineer',
+    role: ' Junior AI & Data Engineer',
     company: 'Twilight IT Solutions, Puducherry',
     period: 'Jul 2025 - Present',
     points: [
